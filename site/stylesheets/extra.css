@@ -1,0 +1,5 @@
+/* Force white text in Dark Mode */
+[data-md-color-scheme="slate"] body {
+    --md-text-color: #ffffff;
+    --md-code-fg-color: #ffffff;
+}

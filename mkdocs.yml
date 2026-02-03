@@ -1,0 +1,61 @@
+site_name: Albany Operations Hub
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - search.suggest
+    - content.code.copy
+  
+  # Light/Dark Toggle
+  palette: 
+    - scheme: default
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Dark Mode
+    - scheme: slate
+      primary: blue
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to Light Mode
+
+# CSS Configuration (Must be on the far left)
+extra_css:
+-stylesheets/extra.css
+plugins:
+-search        # You must list the default search explicitly first
+nav:
+  - Home: index.md
+  - 'Treatment Process':
+    - 'Overview': process/overview.md
+    - 'Aeration': process/aeration.md
+    - 'Coagulation & Flocculation': process/coag-floc.md
+    - 'Filtration': process/filtration.md
+    - 'Disinfection': process/disinfection.md
+    - 'Storage & Distribution': process/storage.md
+  - 'Procedures (SOPs)':
+    - 'Water Quality Analysis': procedures/quality-analysis.md
+    - 'Chemical Dosing Checks': procedures/dosing-checks.md
+    - 'Filter Washes': procedures/filter-washes.md
+    - 'Pump Calibrations': procedures/pump-calibration.md
+    - 'Tank & Line Cleaning': procedures/cleaning.md
+  - 'Chemical Handling':
+    - 'Deliveries Overview': chemicals/deliveries.md
+    - 'Sodium Hypochlorite': chemicals/hypo.md
+    - 'Hydrated Lime': chemicals/lime.md
+    - 'PAC & Permanganate': chemicals/pac-perm.md
+  - 'Facilities & Pumps':
+    - 'Reservoirs': facilities/reservoirs.md
+    - 'Pump Stations': facilities/pump-stations.md
+    - 'SCADA': facilities/scada.md
+  - 'Reference & Training':
+    - 'Orientation Plan': training/orientation.md
+    - 'NYS DOH Part 5': training/nys-doh.md
+    - 'AWWA Opflow Chemistry': training/awwa-chem.md
+
+use_directory_urls: false
