@@ -51,6 +51,7 @@ nav:
     - 'PAC & Permanganate': chemicals/pac-perm.md
   - 'Facilities & Pumps':
     - 'Reservoirs': facilities/reservoirs.md
+    - 'Water Treatment Plant': facilities/water-treatment-plant.md
     - 'Pump Stations': facilities/pump-stations.md
     - 'SCADA': facilities/scada.md
   - 'Reference & Training':
