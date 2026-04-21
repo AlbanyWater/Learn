@@ -3,4 +3,4 @@
 This is a reference site for components throughout the facility
 
 Link to the live page
-https://albanywater.github.io/Learn/facilities/reservoirs/ 
+https://albanywater.github.io/Learn/
